@@ -1,0 +1,4 @@
+developername,masterlabel,inds__active__c,inds__card_icon_background__c,inds__card_icon_foreground__c,inds__card_icon__c,inds__card_text__c,inds__card_title__c,inds__description__c,inds__sobject__c
+Person_Alerts,Person Alerts,TRUE,,,standard:account,,Person Alerts,Holds key alert info,Account
+Person_Comms,Person Comms,TRUE,,,standard:account,,Communication Preference,Communication Preference info,Account
+Properties,Properties,TRUE,,,standard:delegated_account,,Properties,Alerts for properties,Asset

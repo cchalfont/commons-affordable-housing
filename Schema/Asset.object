@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Property_Notification__c</fullName>
+        <externalId>false</externalId>
+        <label>Property Notification</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Attend In Pairs</fullName>
+                    <default>false</default>
+                    <label>Attend In Pairs</label>
+                </value>
+                <value>
+                    <fullName>Electric Car Charger</fullName>
+                    <default>false</default>
+                    <label>Electric Car Charger</label>
+                </value>
+                <value>
+                    <fullName>Energy Efficient</fullName>
+                    <default>false</default>
+                    <label>Energy Efficient</label>
+                </value>
+                <value>
+                    <fullName>Heating Issues</fullName>
+                    <default>false</default>
+                    <label>Heating Issues</label>
+                </value>
+                <value>
+                    <fullName>Pest Control</fullName>
+                    <default>false</default>
+                    <label>Pest Control</label>
+                </value>
+                <value>
+                    <fullName>Pets In Property</fullName>
+                    <default>false</default>
+                    <label>Pets In Property</label>
+                </value>
+                <value>
+                    <fullName>Renovation Required</fullName>
+                    <default>false</default>
+                    <label>Renovation Required</label>
+                </value>
+                <value>
+                    <fullName>Repair Required</fullName>
+                    <default>false</default>
+                    <label>Repair Required</label>
+                </value>
+                <value>
+                    <fullName>Secure Locks</fullName>
+                    <default>false</default>
+                    <label>Secure Locks</label>
+                </value>
+                <value>
+                    <fullName>Water Leakage</fullName>
+                    <default>false</default>
+                    <label>Water Leakage</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+</CustomObject>

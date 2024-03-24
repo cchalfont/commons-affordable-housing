@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Active__c</fullName>
+        <externalId>false</externalId>
+        <formula>ISBLANK(End_Date__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Alert_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Alert Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Person</fullName>
+                    <default>false</default>
+                    <label>Person</label>
+                </value>
+                <value>
+                    <fullName>Household</fullName>
+                    <default>false</default>
+                    <label>Household</label>
+                </value>
+                <value>
+                    <fullName>Asset</fullName>
+                    <default>false</default>
+                    <label>Asset</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Asset__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Asset</label>
+        <referenceTo>Asset</referenceTo>
+        <relationshipLabel>Housing Alerts</relationshipLabel>
+        <relationshipName>Housing_Alerts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Alert_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>🧑‍🤝‍🧑Visit in Pairs</fullName>
+                    <default>false</default>
+                    <label>🧑‍🤝‍🧑Visit in Pairs</label>
+                </value>
+                <value>
+                    <fullName>💉Drug Dealer</fullName>
+                    <default>false</default>
+                    <label>💉Drug Dealer</label>
+                </value>
+                <value>
+                    <fullName>Service Adjustment</fullName>
+                    <default>false</default>
+                    <label>Service Adjustment</label>
+                </value>
+                <value>
+                    <fullName>Red Flags</fullName>
+                    <default>false</default>
+                    <label>Red Flags</label>
+                </value>
+                <value>
+                    <fullName>Asbestos</fullName>
+                    <default>false</default>
+                    <label>Asbestos</label>
+                </value>
+                <value>
+                    <fullName>Warranty</fullName>
+                    <default>false</default>
+                    <label>Warranty</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Person</controllingFieldValue>
+                <controllingFieldValue>Household</controllingFieldValue>
+                <valueName>Service Adjustment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Person</controllingFieldValue>
+                <controllingFieldValue>Household</controllingFieldValue>
+                <valueName>Red Flags</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Asset</controllingFieldValue>
+                <valueName>Asbestos</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Asset</controllingFieldValue>
+                <valueName>Warranty</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Freetext__c</fullName>
+        <externalId>false</externalId>
+        <label>Freetext</label>
+        <length>50000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Occupancy_Agreement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Occupancy Agreement</label>
+        <referenceTo>Occupancy_Agreement__c</referenceTo>
+        <relationshipLabel>Housing Alerts</relationshipLabel>
+        <relationshipName>Housing_Alerts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Person__c</fullName>
+        <externalId>false</externalId>
+        <label>Person</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Person Account</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Housing Alerts</relationshipLabel>
+        <relationshipName>Housing_Alerts</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Service_Adjustment__c</fullName>
+        <externalId>false</externalId>
+        <label>Service Adjustment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <controllingField>Sub_Category__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Braille</fullName>
+                    <default>false</default>
+                    <label>Braille</label>
+                </value>
+                <value>
+                    <fullName>Large Print</fullName>
+                    <default>false</default>
+                    <label>Large Print</label>
+                </value>
+                <value>
+                    <fullName>Audio</fullName>
+                    <default>false</default>
+                    <label>Audio</label>
+                </value>
+                <value>
+                    <fullName>Knock Loudly</fullName>
+                    <default>false</default>
+                    <label>Knock Loudly</label>
+                </value>
+                <value>
+                    <fullName>Advocate</fullName>
+                    <default>false</default>
+                    <label>Advocate</label>
+                </value>
+                <value>
+                    <fullName>Space for a Scooter</fullName>
+                    <default>false</default>
+                    <label>Space for a Scooter</label>
+                </value>
+                <value>
+                    <fullName>Allow Guide Dogs</fullName>
+                    <default>false</default>
+                    <label>Allow Guide Dogs</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Learning Difficulties</controllingFieldValue>
+                <controllingFieldValue>Dementia</controllingFieldValue>
+                <controllingFieldValue>Mental health issue</controllingFieldValue>
+                <valueName>Advocate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mobility Problems</controllingFieldValue>
+                <valueName>Space for a Scooter</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sight Impaired/Blind</controllingFieldValue>
+                <valueName>Braille</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sight Impaired/Blind</controllingFieldValue>
+                <valueName>Large Print</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sight Impaired/Blind</controllingFieldValue>
+                <valueName>Audio</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sight Impaired/Blind</controllingFieldValue>
+                <valueName>Allow Guide Dogs</valueName>
+            </valueSettings>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <defaultValue>TODAY()</defaultValue>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Sub_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Category__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Asbestos Confirmed</fullName>
+                    <default>false</default>
+                    <label>Asbestos Confirmed</label>
+                </value>
+                <value>
+                    <fullName>Dementia</fullName>
+                    <default>false</default>
+                    <label>Dementia</label>
+                </value>
+                <value>
+                    <fullName>Mental health issue</fullName>
+                    <default>false</default>
+                    <label>Mental health issue</label>
+                </value>
+                <value>
+                    <fullName>Sight Impaired/Blind</fullName>
+                    <default>false</default>
+                    <label>Sight Impaired/Blind</label>
+                </value>
+                <value>
+                    <fullName>Carer/Social Worker</fullName>
+                    <default>false</default>
+                    <label>Carer/Social Worker</label>
+                </value>
+                <value>
+                    <fullName>No Male Staff Members to Contact/Visit</fullName>
+                    <default>false</default>
+                    <label>No Male Staff Members to Contact/Visit</label>
+                </value>
+                <value>
+                    <fullName>No Female Staff Members to Contact/Visit</fullName>
+                    <default>false</default>
+                    <label>No Female Staff Members to Contact/Visit</label>
+                </value>
+                <value>
+                    <fullName>Hearing Difficulties</fullName>
+                    <default>false</default>
+                    <label>Hearing Difficulties</label>
+                </value>
+                <value>
+                    <fullName>Needle risk</fullName>
+                    <default>false</default>
+                    <label>Needle risk</label>
+                </value>
+                <value>
+                    <fullName>Owner of a Dangerous Animal</fullName>
+                    <default>false</default>
+                    <label>Owner of a Dangerous Animal</label>
+                </value>
+                <value>
+                    <fullName>Visit accommpanied by a Female Officer</fullName>
+                    <default>false</default>
+                    <label>Visit accommpanied by a Female Officer</label>
+                </value>
+                <value>
+                    <fullName>Learning Difficulties</fullName>
+                    <default>false</default>
+                    <label>Learning Difficulties</label>
+                </value>
+                <value>
+                    <fullName>Mobility Problems</fullName>
+                    <default>false</default>
+                    <label>Mobility Problems</label>
+                </value>
+                <value>
+                    <fullName>Visit in pairs</fullName>
+                    <default>false</default>
+                    <label>Visit in pairs</label>
+                </value>
+                <value>
+                    <fullName>Female visits only</fullName>
+                    <default>false</default>
+                    <label>Female visits only</label>
+                </value>
+                <value>
+                    <fullName>Male visits only</fullName>
+                    <default>false</default>
+                    <label>Male visits only</label>
+                </value>
+                <value>
+                    <fullName>Speech Difficulties</fullName>
+                    <default>false</default>
+                    <label>Speech Difficulties</label>
+                </value>
+                <value>
+                    <fullName>Visit Accompanied by the Police</fullName>
+                    <default>false</default>
+                    <label>Visit Accompanied by the Police</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Service Adjustment</controllingFieldValue>
+                <valueName>Dementia</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Adjustment</controllingFieldValue>
+                <valueName>Mental health issue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Adjustment</controllingFieldValue>
+                <valueName>Sight Impaired/Blind</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Adjustment</controllingFieldValue>
+                <valueName>Carer/Social Worker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Adjustment</controllingFieldValue>
+                <valueName>Hearing Difficulties</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Adjustment</controllingFieldValue>
+                <valueName>Learning Difficulties</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Adjustment</controllingFieldValue>
+                <valueName>Mobility Problems</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Service Adjustment</controllingFieldValue>
+                <valueName>Speech Difficulties</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Red Flags</controllingFieldValue>
+                <valueName>No Male Staff Members to Contact/Visit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Red Flags</controllingFieldValue>
+                <valueName>No Female Staff Members to Contact/Visit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Red Flags</controllingFieldValue>
+                <valueName>Needle risk</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Red Flags</controllingFieldValue>
+                <valueName>Owner of a Dangerous Animal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Red Flags</controllingFieldValue>
+                <valueName>Visit accommpanied by a Female Officer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Red Flags</controllingFieldValue>
+                <valueName>Visit in pairs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Red Flags</controllingFieldValue>
+                <valueName>Female visits only</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Red Flags</controllingFieldValue>
+                <valueName>Male visits only</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Red Flags</controllingFieldValue>
+                <valueName>Visit Accompanied by the Police</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Asbestos</controllingFieldValue>
+                <valueName>Asbestos Confirmed</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <label>Housing Alert</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Active__c</columns>
+        <columns>Person__c</columns>
+        <columns>Occupancy_Agreement__c</columns>
+        <columns>Asset__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Category__c</columns>
+        <columns>Sub_Category__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Household</fullName>
+        <columns>NAME</columns>
+        <columns>Person__c</columns>
+        <columns>Occupancy_Agreement__c</columns>
+        <columns>Asset__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Category__c</columns>
+        <columns>Sub_Category__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Alert_Type__c</field>
+            <operation>equals</operation>
+            <value>Household</value>
+        </filters>
+        <label>Household</label>
+    </listViews>
+    <listViews>
+        <fullName>Person</fullName>
+        <columns>NAME</columns>
+        <columns>Person__c</columns>
+        <columns>Occupancy_Agreement__c</columns>
+        <columns>Asset__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Category__c</columns>
+        <columns>Sub_Category__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Alert_Type__c</field>
+            <operation>equals</operation>
+            <value>Person</value>
+        </filters>
+        <label>Person</label>
+    </listViews>
+    <nameField>
+        <displayFormat>Alert-{0}</displayFormat>
+        <label>Housing Alert Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Housing Alerts</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

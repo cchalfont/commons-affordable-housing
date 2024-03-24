@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Communication_Preference__c</fullName>
+        <externalId>false</externalId>
+        <label>Communication Preference</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>false</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>SMS</fullName>
+                    <default>false</default>
+                    <label>SMS</label>
+                </value>
+                <value>
+                    <fullName>Post</fullName>
+                    <default>false</default>
+                    <label>Post</label>
+                </value>
+                <value>
+                    <fullName>WhatsApp</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WhatsApp</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Count_High_Priority_Alerts__c</fullName>
+        <externalId>false</externalId>
+        <label>Count High Priority Alerts</label>
+        <summaryFilterItems>
+            <field>Housing_Alert__c.Category__c</field>
+            <operation>equals</operation>
+            <value>Red Flags</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Housing_Alert__c.Person__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Count_Service_Adjustments__c</fullName>
+        <externalId>false</externalId>
+        <label>Count Service Adjustments</label>
+        <summaryFilterItems>
+            <field>Housing_Alert__c.Category__c</field>
+            <operation>equals</operation>
+            <value>Service Adjustment</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Housing_Alert__c.Person__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Date_of_death__c</fullName>
+        <externalId>false</externalId>
+        <label>Date of death</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Is_Deceased__c</fullName>
+        <externalId>false</externalId>
+        <formula>NOT ISBLANK(TEXT( Date_of_death__c))</formula>
+        <label>Is Deceased</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Person_Alert__c</fullName>
+        <externalId>false</externalId>
+        <label>Person Alert</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Arrears</fullName>
+                    <default>false</default>
+                    <label>Arrears</label>
+                </value>
+                <value>
+                    <fullName>Carer</fullName>
+                    <default>false</default>
+                    <label>Carer</label>
+                </value>
+                <value>
+                    <fullName>Animals In Property</fullName>
+                    <default>false</default>
+                    <label>Animals In Property</label>
+                </value>
+                <value>
+                    <fullName>Safeguarding</fullName>
+                    <default>false</default>
+                    <label>Safeguarding</label>
+                </value>
+                <value>
+                    <fullName>Asbo</fullName>
+                    <default>false</default>
+                    <label>Asbo</label>
+                </value>
+                <value>
+                    <fullName>Pest Control</fullName>
+                    <default>false</default>
+                    <label>Pest Control</label>
+                </value>
+                <value>
+                    <fullName>Inspection Due</fullName>
+                    <default>false</default>
+                    <label>Inspection Due</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+</CustomObject>
