@@ -1,9 +1,0 @@
-developername,masterlabel,inds__active__c,inds__advanced_field_label__c,inds__advanced_field__c,inds__description__c,inds__display_multiple__c,inds__empty_static_text_behavior__c,inds__hover_text__c,inds__icon_background__c,inds__icon_foreground__c,inds__icon_value__c,inds__image__c,inds__inverse_hover_text__c,inds__inverse_icon_background__c,inds__inverse_icon_foreground__c,inds__inverse_icon_value__c,inds__inverse_image__c,inds__inverse_static_text__c,inds__show_false_or_blank__c,inds__static_text__c,inds__zero_behavior__c,inds__sobject__c,inds__field__c
-Account_Is_Deceased,Account Is Deceased,TRUE,,,,FALSE,Use Icon Only,Is Deceased,#FFFFFF,,,https://useful-png-icons-salesforce.s3.eu-west-2.amazonaws.com/tombstone.png,,,,,,,,,,Account,Account.Is_Deceased__c
-Person_Alert,Person Alert,TRUE,,,,TRUE,Use Icon Only,Person Alert,#FFFFFF,,,,,,,,,,,,,Account,Account.Person_Alert__c
-Person_Arrears,Person Arrears,TRUE,,,,FALSE,Use Icon Only,In Arrears,#FFFFFF,,,,,,,,,,,,,Account,Account.Arrears_Net_HB__c
-Person_Arrears_Stage,Person Arrears Stage,TRUE,,,,FALSE,Use Icon Only,Person Arrears Stage,#FFFFFF,,,,,,,,,,,,,Account,Account.Arrears_Stage__c
-Person_Comms_Pref,Person Comms Pref,TRUE,,,,FALSE,Use Icon Only,Communication Preference,#FFFFFF,,,,,,,,,,,,,Account,Account.Communication_Preference__c
-Person_Household_Alert,Person Household Alert,TRUE,,,,FALSE,Use Icon Only,Household Alert,#FFFFFF,,,,,,,,,,,,,Account,Account.Count_High_Priority_Alerts__c
-Person_Service_Adjustment,Person Service Adjustment,TRUE,,,,FALSE,Use Icon Only,Service Adjustments,#FFFFFF,,,,,,,,,,,,,Account,Account.Count_Service_Adjustments__c
-Property_Notification,Property Notification,TRUE,,,,TRUE,Use Icon Only,Properties,#FFFFFF,,,,,,,,,,,,,Asset,Asset.Property_Notification__c

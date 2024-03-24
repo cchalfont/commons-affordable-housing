@@ -1,0 +1,26 @@
+developername,masterlabel,inds__active__c,inds__contains_text__c,inds__description__c,inds__hover_text__c,inds__icon_background__c,inds__icon_foreground__c,inds__icon_value__c,inds__image__c,inds__indicator_item__c,inds__maximum__c,inds__minimum__c,inds__priority__c,inds__static_text__c,inds__text_operator__c
+Alert,Alert_Carer,TRUE,Carer,,Carer,#FFFFFF,,utility:adduser,,Person_Alert,0,0,0,,Contains
+Alert_Asbo,Alert_Asbo,TRUE,Asbo,,Asbo,#FFFFFF,,utility:block_visitor,,Person_Alert,0,0,0,,Contains
+Alert_Comms_Email,Alert Comms Email,TRUE,Email,,Email,#FFFFFF,,utility:email,,Person_Comms_Pref,0,0,0,,Equals
+Alert_Comms_Mob,Alert Comms Mob,TRUE,Mobile,,Mobile Phone,#FFFFFF,,utility:call,,Person_Comms_Pref,0,0,0,,Contains
+Alert_Comms_WhatsApp,Alert Comms WhatsApp,TRUE,WhatsApp,,WhatsApp,#FFFFFF,,utility:anywhere_chat,,Person_Comms_Pref,0,0,0,,Equals
+Alert_Eviction,Alert Eviction,TRUE,(NSP),,Eviction Notice,#FFFFFF,,utility:error,,Person_Arrears_Stage,0,0,0,,Contains
+Alert_Household_Alert,Alert Household Alert,TRUE,,,Household Alert,#FFFFFF,,utility:priority,,Person_Household_Alert,1000,1,0,,
+Alert_In_Arrears,Alert In Arrears,TRUE,,,In Arrears,#FFFFFF,,utility:moneybag,,Person_Arrears,999999,500,0,,
+Alert_InspectionDue,Alert_InspectionDue,TRUE,Inspection Due,,Inspection Due,#FFFFFF,,utility:clock,,Person_Alert,0,0,0,,Contains
+Alert_PestControl,Alert_PestControl,TRUE,Pest Control,,Pest Control,#FFFFFF,,utility:bug,,Person_Alert,0,0,0,,Contains
+Alert_Pets,Alert_Pets,TRUE,Animals In Property,,Animals In Property,#FFFFFF,,utility:animal_and_nature,,Person_Alert,0,0,0,,Contains
+Alert_Safeguarding,Alert_Safeguarding,TRUE,Safeguarding,,Safeguarding,#FFFFFF,,utility:alert,,Person_Alert,0,0,0,,Contains
+Alert_Service_Adjustment,Alert Service Adjustment,TRUE,,,Service Adjustment,#FFFFFF,,utility:heart,,Person_Service_Adjustment,1000,1,0,,
+Person_Comms_Post,Person Comms Post,TRUE,Post,,Post,#FFFFFF,,utility:sender_email,,Person_Comms_Pref,0,0,0,,Equals
+Person_Comms_SMS,Person Comms SMS,TRUE,SMS,,SMS,#FFFFFF,,utility:sms,,Person_Comms_Pref,0,0,0,,Equals
+Property,Property Charger,TRUE,Electric Car Charger,,Electric Car Charger,#FFFFFF,,utility:apex_plugin,,Property_Notification,0,0,0,,Contains
+Property_Attend_Pairs,Property Attend Pairs,TRUE,Attend In Pairs,,Attend In Pairs,#FFFFFF,,utility:swarm_request,,Property_Notification,0,0,0,,Contains
+Property_Energy_Efficient,Property Energy Efficient,TRUE,Energy Efficient,,Energy Efficient,#FFFFFF,,utility:agent_home,,Property_Notification,0,0,0,,Contains
+Property_Heating_Issues,Property Heating Issues,TRUE,Heating Issues,,Heating Issues,#FFFFFF,,utility:frozen,,Property_Notification,0,0,0,,Contains
+Property_Pest,Property Pest,TRUE,Pest Control,,Pest Control,#FFFFFF,,,https://useful-png-icons-salesforce.s3.eu-west-2.amazonaws.com/Bug.png,Property_Notification,0,0,0,,Contains
+Property_Pets,Property Pets,TRUE,Pets In Property,,Pets In Property,#FFFFFF,,utility:animal_and_nature,,Property_Notification,0,0,0,,Contains
+Property_Renovation_Required,Property Renovation Required,TRUE,Renovation Required,,Renovation Required,#FFFFFF,,utility:bucket,,Property_Notification,0,0,0,,Contains
+Property_Repair,Property Repair,TRUE,Repair Required,,Repair Required,#FFFFFF,,utility:custom_apps,,Property_Notification,0,0,0,,Contains
+Property_Secure_Locks,Property Secure Locks,TRUE,Secure Locks,,Secure Locks,#FFFFFF,,utility:key,,Property_Notification,0,0,0,,Contains
+Property_Water,Property_Water,TRUE,Water Leakage,,Water Leakage,#FFFFFF,,utility:water,,Property_Notification,0,0,0,,Contains

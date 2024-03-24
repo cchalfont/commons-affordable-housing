@@ -1,9 +1,0 @@
-developername,masterlabel,inds__indicator_bundle__c,inds__indicator_item__c,inds__order__c
-Person_Comms,Person Comms,Person_Comms,Person_Comms_Pref,1.00
-Person_Deceased,Person Deceased,Person_Alerts,Account_Is_Deceased,10.00
-Person_Evicted,Person Evicted,Person_Alerts,Person_Arrears_Stage,20.00
-Person_Household_Notice,Person Household Notice,Person_Alerts,Person_Household_Alert,1.00
-Person_In_Arrears,Person In Arrears,Person_Alerts,Person_Arrears,3.00
-Person_Notifications,Person Notifications,Person_Alerts,Person_Alert,1.00
-Person_Service_Adjustment,Person Service Adjustment,Person_Alerts,Person_Service_Adjustment,2.00
-Property_Notification,Property Notification,Properties,Property_Notification,1.00
